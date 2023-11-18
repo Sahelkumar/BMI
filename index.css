@@ -1,0 +1,211 @@
+@font-face {
+    font-family: futura;
+    src: url(./Futura\ Bold\ font.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/806177-Fitness-Dumbbells-Singlet-Black-background-Workout.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    justify-content: space-between;
+    padding: 0 12vh;
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    height: 20%;
+    
+   
+
+}
+.logo{
+    font-family: 'poppins';
+    color: white;
+    
+}
+.nav a{
+    text-decoration: none;
+    font-family: 'poppins';
+    margin: 4vh;
+    font-size: 1vw;
+    color:f204ca;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav a i{
+    display: none;
+}
+.logo, .nav{
+    margin-top: 8vh;
+    
+}
+.nav a{
+border: 5px solid transparent;
+border-radius: 2vh;
+}
+.nav a:hover{
+    delay:2s;
+    transition: 1s;
+    
+    background:white;
+    border-radius: 2vh;
+    
+    font-weight: bold;
+    
+}
+.textography{
+    
+    color: white;
+    font-weight: 600;
+    margin-top: 10vh;
+}
+.textography h1 span{
+    font-family: 'poppins';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 10vh;
+    color: blueviolet;
+}
+.textography h1{
+    font-family: 'poppins';
+}
+
+.testimonial{
+    padding: 0 12vh;
+    display: flex;
+    justify-content: space-between;
+}
+.calculate h1{
+    font-family: 'kanit';
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.calculate{
+    width: 87vh;
+    border: 2px solid blueviolet;
+    height: 26vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 22px;
+    border-radius: 22px;
+}
+.calculate form input{
+    font-family: 'poppins';
+}
+.calculate label{
+    color: white;
+}
+.cal-inside{
+    font-family: 'poppins';
+    display: grid;
+    padding: 0 18vh;
+    /* margin: 18px; */
+    /* column-gap: 32px; */
+    grid-gap: 1.5vh;
+}
+.cal-inside button{
+    background: transparent;
+    color: white;
+}
+.cal-inside button:hover:{
+    background: blueviolet;
+    cursor: pointer;
+
+
+}
+.cal-inside p{
+    color: white;
+}
+.cal-inside input
+{
+    border-radius: 10px;
+    margin: 0px 0px;
+    padding: 0px 8px;
+    background: transparent;
+    color: white;
+}
+    
+.cal-inside button:hover{
+    cursor: pointer;
+}    
+
+.calculate{
+    box-shadow: 10px 10px 75px 0px rgb(106 28 188 / 50%);
+}
+
+
+@media only screen and (max-width:600px) {
+   
+    .calculate{
+        display: flex;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 40vh;
+        overflow: hidden;
+        
+    }
+    .nav{
+       display: none;
+    }
+    .nav a:last-child {
+        display: block; /* Display the last anchor (menu button) */
+        font-size: 5vw;
+        color: blue;
+      }
+    .menu-button{
+    display: block;
+    }
+    .testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    }
+    .textography{
+        font-size: 4vw;
+        line-height: 10vw;
+    }
+    .textography h1 span{
+        font-size: 15vw;
+        font-weight: 600;
+    }
+
+   .cal-inside{
+    font-size: 2vw;
+    text-align: center;
+    }
+    .cal-inside label {
+        line-height: 1vw;
+    }
+    .cal-inside input {
+        line-height: 1vw;
+    }
+  .cal-inside h1{
+    font-size: 5vw;
+    font-weight: 800;
+   }
+    .cal-inside input{
+        font-size: 2vw;
+    }
+    .container{
+        display: flex;
+        height: 5vh;
+        justify-content: center;
+        font-size: 7vw;
+        margin-bottom: 5vw;
+    }
+    .logo h1{
+        
+        font-family: futura;
+        
+    }
+}
