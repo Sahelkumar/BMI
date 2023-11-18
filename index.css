@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/workout.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/workout.jpg);
     width: 100vw;
     height: 100vh;
     
