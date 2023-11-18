@@ -1,2 +1,2 @@
 # BMI 
-#calculate your BMI efficiently
+calculate your BMI efficiently
