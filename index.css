@@ -2,7 +2,30 @@
     font-family: futura;
     src: url(./Futura\ Bold\ font.ttf);
 }
-
+.chart{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.chart h1{
+    font-family: 'futura';
+    color: blueviolet;
+}   
+    
+.chart img{
+    background: rgba(0, 0, 0, 0.1);
+    width: 28vw;
+    height: 25vh;
+    margin-top: 2vw;
+}
+.chart img:hover{
+    box-shadow:10px 10px 75px 0px rgba(157, 130, 186, 0.5) ;
+    cursor: pointer;
+    /* transform: translateY(-10px); */
+} 
 *{
     margin: 0;
     padding: 0;
@@ -147,6 +170,18 @@ border-radius: 2vh;
 
 
 @media only screen and (max-width:600px) {
+    .chart img{
+        height: 12vh;
+        width: 50vw;
+        margin-top: 5vw;
+    }
+    .chart{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
    
     .calculate{
         display: flex;
